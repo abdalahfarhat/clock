@@ -5,6 +5,9 @@ body {
   background-image: url("http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/office.png");
   font-family: "Oswald", sans-serif;
 }
+.main {
+  min-height: calc(100vh - 110px);
+}
 
 .clock-wrap {
   width: 410px;
@@ -134,4 +137,12 @@ body {
   position: absolute;
   left: 15px;
   top: 30px;
+}
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2b2b2b;
+  color: #fff;
+  height: 60px;
 }
